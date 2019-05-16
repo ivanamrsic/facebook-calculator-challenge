@@ -1,4 +1,4 @@
-package com.imrsic;
+package com.imrsic.java;
 
 import java.util.List;
 import java.util.Stack;

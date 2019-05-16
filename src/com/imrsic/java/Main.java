@@ -1,4 +1,4 @@
-package com.imrsic;
+package com.imrsic.java;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            File file = new File("/Users/gordanmrsic/Developer/AVSP/facebook_calculator_challenge/src/com/imrsic/test");
+            File file = new File("src/com/imrsic/test/test2");
             Scanner scanner = new Scanner(file);
 
             Calculator calculator = new Calculator();
