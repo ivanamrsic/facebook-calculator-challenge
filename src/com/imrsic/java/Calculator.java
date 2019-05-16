@@ -28,7 +28,7 @@ class Calculator {
     }
 
     private static boolean isNumeric(String str) {
-        return str.matches("[0-9]");  //match a number with optional '-' and decimal.
+        return str.matches("[0-9]");
     }
 
     private void handleNonNumericElement(String currentElement) {
